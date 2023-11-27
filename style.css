@@ -1,0 +1,234 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Zasline, 'Times New Roman', Times, serif;
+    src: url(misc/Zasline.otf);
+  }
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background-color: white;
+    filter: drop-shadow(0px 4px 10px rgba(78, 87, 121, 0.3));
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+img {
+    max-width: 130%;
+    max-height: 130%;
+    
+}
+
+
+hero .left {
+    width: 50%;
+    padding-top: 5%;
+}
+
+
+hero .right {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.right img {
+    filter: drop-shadow(0px 4px 10px rgba(78, 87, 121, 0.3));
+    width: 80%;
+    position: relative;
+    box-shadow: 20px -20px 0px rgba(78, 87, 121, 0.7);
+    object-fit: cover;
+}
+
+
+hero {
+    display:flex;
+    flex-direction: row;
+    padding: 5%;
+
+}
+
+h1 {
+    font-family: Zasline;
+    font-size: 6vw;
+    font-weight: 100;
+    text-decoration: underline;
+    margin: 5% 0% 5% 0%;
+}
+
+h2 {
+    font-family: Zasline;
+    color: #4E5779;
+    font-size: 32px;
+}
+
+.nav a {
+    font-family: Zasline, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.nav {
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1em;
+
+}
+
+h3 {
+    font-family: Zasline;
+    color: #4E5779;
+    font-size: 24px;
+}
+
+.Button {
+    box-sizing: border-box;
+    margin-top: 6em;
+    display: flex;
+    border-style: solid;
+    width: 15em;
+    height: 5em;
+    border-radius: 24px;
+    transition-duration: 0.4s;
+
+}
+
+.Button p {
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+    font-size: 24px;
+    font-family: Zasline;
+}
+
+.Button:hover {
+    background-color:rgba(78, 87, 121);
+    color: white;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: rgba(78, 87, 121);
+}
+
+.left > p {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.project-container {
+    box-sizing: border-box;
+    display: flex;
+    gap: 7%;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.project-container div img {
+    width:100%;
+    filter: drop-shadow(0px 4px 10px rgba(78, 87, 121, 0.3));
+
+}
+
+.projects-title {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+.projects-text {
+    margin-top: 10%;
+}
+
+
+@media (max-width: 80px) {
+
+    hero {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        }
+    
+        hero .left {
+        width: 100%;
+        }
+    
+        hero .right {
+            width: 100%;
+            padding: 0%;
+            justify-content: center;
+        }
+    
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-top: 10px;
+    }
+
+    .nav a {
+        font-size: 16px;
+    }
+
+    header {
+        height: 15%;
+    }
+
+    .right {
+        display: flex;
+        margin: 0;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .nav {
+        margin-right: 0;
+        padding: 5%;
+        font-size: 16px;
+    }
+
+    .right img {
+        margin: 0;
+        margin-top: 15%;
+        width: 300px;
+        align-self: center;
+        display: flex;
+    }
+
+  .Button {
+        margin: auto;
+        margin-top: 10%;
+        font-size: 12px;
+        width: 300px;
+    }
+
+  .project-container {
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .project-container div {
+        align-self: center;
+        margin-bottom: 10%;
+    }
+    .project-container div img {
+        width:300px;
+      }
+
+}
