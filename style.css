@@ -29,6 +29,10 @@ img {
     
 }
 
+a {
+    text-decoration: none;
+}
+
 
 hero .left {
     width: 50%;
@@ -228,7 +232,7 @@ h3 {
         margin-bottom: 10%;
     }
     .project-container div img {
-        width:300px;
+        width: 300px;
       }
 
 }
