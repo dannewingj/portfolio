@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jennifers portfolio</title>
     <link href="style.css" rel="stylesheet">
-    
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <body>
     <header>
-        <a href="https://www.youtube.com/watch?v=2KI1mQAbR2k"><h3>ICON</h3></a>
+        <a href="https://www.youtube.com/watch?v=2KI1mQAbR2k"><h3>HOME</h3></a>
         <div class="nav">
-            <a>PROJECTS</a>
+            <a href="#projects-title">PROJECTS</a>
             <a>ABOUT ME</a>
         
         </div>
@@ -25,55 +26,66 @@
                     Digital Designer
                 </h1>
                 <p>VECTOR, RASTER, UI AND UX DESIGNER</p>
-                <div class="Button">
+                <a href="#projects-title" class="Button">
                     <p>TO PROJECTS</p>
-                </div>
+                </a>
             </div>
             <div class="right">
-                <img src="img/Jennifer-bild2.png" alt="A picture of me in blue and purple lighting">
+                <img src="img/Jennifer-bild2.png" alt="A picture of me in blue and purple lighting" class="shadow-img">
             </div>
         
     </hero>
 
-    <h2 class="projects-title">Projects</h2>
+    <h2 id="projects-title">Projects</h2>
     <main class="project-container">
         <div>
-            <img src="img/CoffeeGround.png">
+            <a href="projects.html"><img src="img/CoffeeGround.png" alt="A mockup preview of the CoffeeGround app."></a>
             <div class="projects-text">
-                <h2>TITEL, KATEGORI</h2>
-                <p>Kort info om projektet</p>
+                <h2>CoffeeGround</h2>
+                <p>Project centered around Urban Sustainability. CoffeeGround is a system and an app that lets you recycle coffeegrounds for money and a greener Gothenburg.
+                </p>
                 <div class="Button">
                     <p>TO COFFEEGROUND</p>
                 </div>
             </div>
         </div>
         <div>
-            <img src="img/Foodai.png">
+            <img src="img/Foodai.png" alt="A mockup preview of the Foodai app.">
             <div class="projects-text">
-                <h2>TITEL, KATEGORI</h2>
-                <p>An app that creates recipes based on what is currently in your fridge. It considers your foods closest to spoiling as well as other health considerations. Made in collaboration with Ulrik Claesson.</p>
+                <h2>Foodai</h2>
+                <p>An app that creates recipes based on what is currently in your fridge. It prioritises your food closest to spoiling. <br><br>Made in collaboration with Ulrik Claesson.</p>
                 <div class="Button">
                     <p>TO FOODAI</p>
                 </div>
             </div>
         </div>
         <div>
-            <img src="img/Jennifer_Dannewing_Uppgift-4.jpg" alt="Project name:My haircolor journey, a picture of a project showing 
+            <img src="img/Jennifer_Dannewing_Uppgift-4.jpg" alt="Project name:My haircolor journey or Hairographic, a picture of a project showing 
             me in flat design style in space with tubes of haircolor showing statistics of what colors I have dyed my hair.">
             <div class="projects-text">
-                <h2>TITEL, KATEGORI</h2>
-                <p>Kort info om projektet</p>
+                <h2>Hairographic</h2>
+                <p>An infographic showing illustrations and statistics of my most frequent haircolors<br><br>
+                This was a free choice assignment, and this represented me the most.
+                </p>
                 <div class="Button">
                     <p>TO INFOGRAPHIC</p>
                 </div>
             </div>
         </div>
-        
-
     </main>
 
     <footer>
-
+    <div>
+        <h1>Get in Touch</h1>
+        <h2>With Jennifer Dannewing</h2>
+        <h3>Email: jdannewing@gmail.com</h3></div>
+        
+    <div class="links">
+        <a href="https://www.linkedin.com/in/jennifer-dannewing-37aba1155/"><img src="img/mdi_linkedin.svg" alt="A LinkedIn symbol and button."></a>
+        <a href="https://www.behance.net/jdannewing"><img src="img/ri_behance-fill.svg" alt="A Behance symbol and button."></a>
+        <a href="https://www.instagram.com/dannewingdesign/"><img src="img/mdi_instagram.svg" alt="An Instagram symbol and button."></a>
+    </div>
+        
     </footer>
     
 </body>
