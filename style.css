@@ -363,4 +363,12 @@ footer h3 {
         margin-top: 20px;
     }
 
+    .Button:active {
+        background-color:rgba(78, 87, 121);
+        color: white;
+        border-style: solid;
+        border-radius: 24px;
+        border-color: rgba(78, 87, 121);
+    }
+
 }
